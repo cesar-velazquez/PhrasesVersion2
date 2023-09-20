@@ -9,7 +9,7 @@
 .quoteBox {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    min-height: 95vh;
+    min-height: 100vh;
     place-items: center;
     width: min(100%, 400px);
     padding: 10px 10px 0px 10px;
