@@ -9,10 +9,10 @@
 .quoteBox {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
+    min-height: 95vh;
     place-items: center;
     width: min(100%, 400px);
-    padding: 20px 10px;
+    padding: 10px 10px 0px 10px;
     margin: 0 auto;
 }
 
@@ -58,8 +58,8 @@
     font-size: 9px;
     padding: 1rem;
     position: absolute;
-    top: 20%;
-    bottom: 80%;
+    top: 30%;
+    bottom: 50%;
     z-index: 2;
     display: flex;
     justify-content: center;
@@ -108,7 +108,7 @@
 .footerCelebre {
     background-color: rgba(252, 251, 251, 0.5);
     border: 2px solid rgba(13, 84, 13, 0.5);
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
     width: 150px;
     text-align: center;
 }
@@ -185,4 +185,10 @@
     margin: auto;
     border: 1px solid rgba(255, 255, 255, 0.586);
     font-family: 'Lobster', cursive;
+    cursor: pointer;    
+}
+.refreshFortune:hover{
+    background-color: rgba(0, 0, 0, 0.866);
+    color: white;
+    transition-duration: 1s;
 }
