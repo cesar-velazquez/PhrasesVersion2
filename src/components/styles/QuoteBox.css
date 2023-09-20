@@ -1,4 +1,4 @@
-.title {    
+.title {
     color: #ffffff;
     text-align: center;
     padding: 1rem;
@@ -15,16 +15,18 @@
     padding: 20px 10px;
     margin: 0 auto;
 }
-.centrar{
+
+.centrar {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1rem;
     width: 40px;
     margin: 5% auto;
-    
+
 }
-.refreshqp{    
+
+.refreshqp {
     background-color: rgba(255, 255, 255, 0.695);
     border-radius: 50%;
     cursor: pointer;
@@ -43,43 +45,45 @@
     text-align: center;
 }
 
-.vector {           
+.vector {
     /* position: fixed; */
     bottom: 0;
 }
 
-.author {    
+.author {
     color: #25063f;
     background-color: #8a16e724;
     border-radius: 2rem;
     font-family: 'Digital Numbers', sans-serif;
     font-size: 9px;
-    padding: 1rem;       
+    padding: 1rem;
     position: absolute;
     top: 20%;
-    bottom: 80%;    
+    bottom: 80%;
     z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 130px;
 }
-.footer {    
-    text-align: center;    
+
+.footer {
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;    
+    margin: 0 auto;
     position: relative;
 }
 
-@media (min-width:1000px){
-    .author{
+@media (min-width:1000px) {
+    .author {
         bottom: 5px;
     }
 }
+
 /* ESTILOS DE FRASES CELEBRES */
-.titlePhC{
+.titlePhC {
     color: rgba(0, 0, 0, 0.866);
     text-align: center;
     padding: 1rem;
@@ -87,9 +91,9 @@
     font-size: 30px;
 }
 
-.phraseCelebre{
+.phraseCelebre {
     background: linear-gradient(180deg, #6abfed 0%, rgba(255, 255, 255, 0.33) 100%);
-    padding: 2.5rem;    
+    padding: 2.5rem;
     margin: .5rem;
     color: #000000;
     font-family: 'Fredoka', sans-serif;
@@ -101,22 +105,23 @@
     border: 1px solid rgba(0, 0, 0, 0.154);
 }
 
-.footerCelebre{
+.footerCelebre {
     background-color: rgba(252, 251, 251, 0.5);
     border: 2px solid rgba(13, 84, 13, 0.5);
     margin-bottom: 2rem;
     width: 150px;
     text-align: center;
 }
-.authorCelebre{
+
+.authorCelebre {
     color: black;
     font-size: 1rem;
     padding: 1rem;
 }
 
-.refresh{
+.refresh {
     font-size: 2rem;
-    width: 50px;    
+    width: 50px;
     height: 50px;
     border-radius: 50%;
     border: 5px solid rgba(255, 3, 3, 0.154);
@@ -126,17 +131,58 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.5);    
+    background-color: rgba(255, 255, 255, 0.5);
 }
-.bx:hover{
+
+.bx:hover {
     scale: 110%;
 }
 
 /* Frases de la fortuna */
-.titlePF{
+.titlePF {
     color: rgba(0, 0, 0, 0.866);
     text-align: center;
     padding: 1rem;
-    font-family:'Lobster', cursive;
+    font-family: 'Lobster', cursive;
     font-size: 35px;
+}
+
+.footerFortune {
+    background-color: rgba(248, 235, 235, 0.454);
+    border: 2px solid rgba(244, 0, 0, 0.888);
+    margin-bottom: 2rem;
+    width: 150px;
+    text-align: center;
+}
+
+.authorFortune {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    padding: 1rem;
+    font-family: 'Lobster', cursive;
+}
+
+.phraseFortune{
+    /* background: linear-gradient(180deg, #e2ed6a 0%, rgba(255, 255, 255, 0.33) 100%); */
+    padding: .6rem 2.5rem;
+    margin: .5rem;
+    color: #000000;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 5px solid rgba(255, 255, 255, 0.154);  
+    border-radius: 2rem;  
+}
+.refreshFortune{
+    background-color: rgba(255, 102, 0, 0.522);
+    padding: .2rem 1rem;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 1px solid rgba(255, 255, 255, 0.586);
+    font-family: 'Lobster', cursive;
 }

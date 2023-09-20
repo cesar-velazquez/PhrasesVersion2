@@ -26,15 +26,6 @@ function App() {
   const [bgFortune, setBgFortune] = useState(bgFortun)
   const [phrasesFortune, setPhrasesFortune] = useState(getRandom(quotesFortun))
 
-  // const handleChangeMode = () => {
-  //   setIsModeSpace(!isModeSpace)
-  //   if (isModeSpace === true) {
-  //     setCurrentBg(getRandom(bgSpace))
-  //   } else {
-  //     setBgtruty(getRandom(bgCelebre))
-  //   }
-  // }
-
   const handleChangeQuote = (e) => {
     if (topic === 1) {
       setBgtruty(getRandom(bgCelebre))
@@ -55,25 +46,16 @@ function App() {
       setBgtruty(getRandom(bgCelebre))
       setPhrasesCelebres(getRandom(quotesCelebres))
       setTopic(1)
-      // console.log(setTopic(1))
     } else if (valor === "space") {
       setCurrentBg(getRandom(bgSpace))
       setPhrasesGalaxies(getRandom(quotesGalaxies))
       setTopic(2)
-      // console.log(setTopic(2))
     } else if (valor === "fortune") {
       setBgFortune(getRandom(bgFortun))
       setPhrasesFortune(getRandom(quotesFortun))
       setTopic(3)
     }
-    // else {
-    //   setBgtruty(getRandom(bgCelebre))
-    //   setPhrasesCelebres(getRandom(quotesCelebres))
-    //   setTopic(2)
-    // }
-    // console.log(topic)
   }
-
   return (
     <main className={`App 
     ${topic !== 1 ? (
@@ -85,21 +67,14 @@ function App() {
       ) : (
         bgtruty
       )} `} >
-      <select onClick={handleSelect} name="" id="select">
-        <option value="space">Buscar</option>
-        <option value="famous">Search Famous Phrases</option>
-        <option value="space">Search Space</option>
-        <option value="fortune">Search Fortune</option>
-      </select>
-      {/* {isModeSpace ? 
-      <div className='divchangeMode bx-burst-hover'>
-        <button onClick={handleChangeMode} className='changeMode' >Change to Phrases Celebres</button>
+      <div className='select'>
+        <select onClick={handleSelect} name="" id="select">
+          <option className='option' value="">Buscar...</option>
+          <option value="famous">Search Famous Phrases</option>
+          <option value="space">Search Phrases Galaxies</option>
+          <option value="fortune">Search Phrases Fortune</option>
+        </select>
       </div>
-    :
-    <div className='divbtn'>
-      <button onClick={handleChangeMode} className='changeModeCelebre' >Change to Space</button>
-    </div>
-    } */}
       <QuoteBox
         handleSelect={handleSelect}
         phrasesCelebres={phrasesCelebres}
