@@ -1,0 +1,106 @@
+.App {
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg1 {
+    background-image: url("/img/imgfondos/fondo1.jpg");
+}
+
+.bg2 {
+    background-image: url("/img/imgfondos/fondo2.jpg");
+}
+
+.bg3 {
+    background-image: url("/img/imgfondos/fondo3.jpg");
+}
+
+.bg4 {
+    background-image: url("/img/imgfondos/fondo4.jpg");
+}
+
+/* Nuevos fondos opción 2 */
+
+.bg1opt2 {
+    background-image: url("/img/imgfondos/bg1opt2.png");
+}
+
+.bg2opt2 {
+    background-image: url("/img/imgfondos/bg2opt2.png");
+}
+
+.bg3opt2 {
+    background-image: url("/img/imgfondos/bg3opt2.png");
+}
+
+.bg4opt2 {
+    background-image: url("/img/imgfondos/bg4opt2.png");
+}
+
+/* Nuevos fondos para opción 3 */
+.bg1opt3 {
+    background-image: url("/img/imgfondos/bg1opt3.jpeg");
+}
+
+.bg2opt3 {
+    background-image: url("/img/imgfondos/bg2opt3.jpeg");
+}
+
+.bg3opt3 {
+    background-image: url("/img/imgfondos/bg3opt3.jpeg");
+}
+.bg4opt3 {
+    background-image: url("/img/imgfondos/bg4opt3.jpeg");
+}
+
+
+.divchangeMode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.changeMode {
+    width: auto;
+    margin-top: 5px;
+    border: 2px solid white;
+    padding: 1px 15px;
+    background-color: rgba(111, 108, 108, 0.5);
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-family: 'Fredoka', sans-serif;
+    cursor: pointer;    
+}
+
+.changeMode:hover {
+    background-color: #000;
+    color: rgb(255, 255, 255);
+}
+
+
+/* ESTILOS PARA FRASES CELEBRES */
+.divbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.changeModeCelebre {    
+    width: auto;
+    margin-top: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 1px 15px;
+    background-color: rgba(247, 247, 247, 0.5);
+    font-size: 1.1rem;
+    color: #000000;
+    font-weight: normal;
+    font-family: 'Fredoka', sans-serif;
+    cursor: pointer;
+}
+
+.changeModeCelebre:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+}
