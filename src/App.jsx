@@ -68,7 +68,7 @@ function App() {
         bgtruty
       )} `} >
       <div className='select'>
-        <select onClick={handleSelect} name="" id="select">
+        <select className='selectt' onClick={handleSelect} name="" id="select">
           <option className='option' value="">Buscar...</option>
           <option value="famous">Search Famous Phrases</option>
           <option value="space">Search Phrases Galaxies</option>

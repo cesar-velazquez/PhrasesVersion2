@@ -178,11 +178,11 @@
 }
 .refreshFortune{
     background-color: rgba(255, 102, 0, 0.522);
-    padding: .2rem 1rem;    
+    padding: .8rem 3rem;    
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 1.5rem auto;
     border: 1px solid rgba(255, 255, 255, 0.586);
     font-family: 'Lobster', cursive;
     cursor: pointer;    

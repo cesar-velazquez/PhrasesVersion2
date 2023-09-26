@@ -16,11 +16,11 @@ select {
     border: 0;
     box-shadow: none;    
     flex: 1;
-    padding: 0 1em;
+    padding: 0 2rem;    
     color: #fff;
     background-color: var(--darkgray);
     background-image: none;
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 select::-ms-expand {
@@ -129,7 +129,6 @@ select::-ms-expand {
     background-color: #000;
     color: rgb(255, 255, 255);
 }
-
 
 /* ESTILOS PARA FRASES CELEBRES */
 .divbtn {
